@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  http2:
+    enabled: true
+  servlet:
+    context-path: /api
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+spring:
+  application:
+    name: currency
+cbrf:
+  apiUrl: http://www.cbr.ru/scripts
